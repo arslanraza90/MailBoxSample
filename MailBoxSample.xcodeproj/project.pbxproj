@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD4142F6284681B600AE4C70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4142F5284681B600AE4C70 /* AppDelegate.swift */; };
+		AD4142F8284681B600AE4C70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4142F7284681B600AE4C70 /* SceneDelegate.swift */; };
+		AD4142FA284681B600AE4C70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4142F9284681B600AE4C70 /* ViewController.swift */; };
+		AD4142FD284681B600AE4C70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4142FB284681B600AE4C70 /* Main.storyboard */; };
+		AD4142FF284681BA00AE4C70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4142FE284681BA00AE4C70 /* Assets.xcassets */; };
+		AD414302284681BA00AE4C70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD414300284681BA00AE4C70 /* LaunchScreen.storyboard */; };
+		AD41430D284694C600AE4C70 /* medium.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = AD41430C284694C600AE4C70 /* medium.com.cer */; };
+		AD41430F284695C400AE4C70 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD41430E284695C400AE4C70 /* ServiceManager.swift */; };
+		DA719D7D42602262CF0F77B2 /* Pods_MailBoxSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE252C963D67CCA1620946C /* Pods_MailBoxSample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CE252C963D67CCA1620946C /* Pods_MailBoxSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MailBoxSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88092BEFE88B2F36D807A230 /* Pods-MailBoxSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailBoxSample.debug.xcconfig"; path = "Target Support Files/Pods-MailBoxSample/Pods-MailBoxSample.debug.xcconfig"; sourceTree = "<group>"; };
+		AD4142F2284681B600AE4C70 /* MailBoxSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailBoxSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4142F5284681B600AE4C70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD4142F7284681B600AE4C70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD4142F9284681B600AE4C70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD4142FC284681B600AE4C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD4142FE284681BA00AE4C70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD414301284681BA00AE4C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD414303284681BA00AE4C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD41430C284694C600AE4C70 /* medium.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = medium.com.cer; sourceTree = "<group>"; };
+		AD41430E284695C400AE4C70 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		FAACCA8635920093451E4BF0 /* Pods-MailBoxSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailBoxSample.release.xcconfig"; path = "Target Support Files/Pods-MailBoxSample/Pods-MailBoxSample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD4142EF284681B600AE4C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA719D7D42602262CF0F77B2 /* Pods_MailBoxSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B8E5A5BC83B717325C8865F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88092BEFE88B2F36D807A230 /* Pods-MailBoxSample.debug.xcconfig */,
+				FAACCA8635920093451E4BF0 /* Pods-MailBoxSample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AD4142E9284681B600AE4C70 = {
+			isa = PBXGroup;
+			children = (
+				AD4142F4284681B600AE4C70 /* MailBoxSample */,
+				AD4142F3284681B600AE4C70 /* Products */,
+				1B8E5A5BC83B717325C8865F /* Pods */,
+				DCC738BD8EB5A9961AC98AAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD4142F3284681B600AE4C70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD4142F2284681B600AE4C70 /* MailBoxSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD4142F4284681B600AE4C70 /* MailBoxSample */ = {
+			isa = PBXGroup;
+			children = (
+				AD41430C284694C600AE4C70 /* medium.com.cer */,
+				AD4142F5284681B600AE4C70 /* AppDelegate.swift */,
+				AD4142F7284681B600AE4C70 /* SceneDelegate.swift */,
+				AD4142F9284681B600AE4C70 /* ViewController.swift */,
+				AD41430E284695C400AE4C70 /* ServiceManager.swift */,
+				AD4142FB284681B600AE4C70 /* Main.storyboard */,
+				AD4142FE284681BA00AE4C70 /* Assets.xcassets */,
+				AD414300284681BA00AE4C70 /* LaunchScreen.storyboard */,
+				AD414303284681BA00AE4C70 /* Info.plist */,
+			);
+			path = MailBoxSample;
+			sourceTree = "<group>";
+		};
+		DCC738BD8EB5A9961AC98AAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CE252C963D67CCA1620946C /* Pods_MailBoxSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD4142F1284681B600AE4C70 /* MailBoxSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD414306284681BA00AE4C70 /* Build configuration list for PBXNativeTarget "MailBoxSample" */;
+			buildPhases = (
+				A04C37B263AF08DA6E4C35F9 /* [CP] Check Pods Manifest.lock */,
+				AD4142EE284681B600AE4C70 /* Sources */,
+				AD4142EF284681B600AE4C70 /* Frameworks */,
+				AD4142F0284681B600AE4C70 /* Resources */,
+				6C9E13EBD1E5554FAB505F45 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MailBoxSample;
+			productName = MailBoxSample;
+			productReference = AD4142F2284681B600AE4C70 /* MailBoxSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD4142EA284681B600AE4C70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AD4142F1284681B600AE4C70 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AD4142ED284681B600AE4C70 /* Build configuration list for PBXProject "MailBoxSample" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD4142E9284681B600AE4C70;
+			productRefGroup = AD4142F3284681B600AE4C70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD4142F1284681B600AE4C70 /* MailBoxSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD4142F0284681B600AE4C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD41430D284694C600AE4C70 /* medium.com.cer in Resources */,
+				AD414302284681BA00AE4C70 /* LaunchScreen.storyboard in Resources */,
+				AD4142FF284681BA00AE4C70 /* Assets.xcassets in Resources */,
+				AD4142FD284681B600AE4C70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C9E13EBD1E5554FAB505F45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MailBoxSample/Pods-MailBoxSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MailBoxSample/Pods-MailBoxSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MailBoxSample/Pods-MailBoxSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A04C37B263AF08DA6E4C35F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MailBoxSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD4142EE284681B600AE4C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4142FA284681B600AE4C70 /* ViewController.swift in Sources */,
+				AD4142F6284681B600AE4C70 /* AppDelegate.swift in Sources */,
+				AD4142F8284681B600AE4C70 /* SceneDelegate.swift in Sources */,
+				AD41430F284695C400AE4C70 /* ServiceManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD4142FB284681B600AE4C70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD4142FC284681B600AE4C70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD414300284681BA00AE4C70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD414301284681BA00AE4C70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD414304284681BA00AE4C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD414305284681BA00AE4C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD414307284681BA00AE4C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88092BEFE88B2F36D807A230 /* Pods-MailBoxSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MailBoxSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.MailBoxSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD414308284681BA00AE4C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAACCA8635920093451E4BF0 /* Pods-MailBoxSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MailBoxSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.MailBoxSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD4142ED284681B600AE4C70 /* Build configuration list for PBXProject "MailBoxSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD414304284681BA00AE4C70 /* Debug */,
+				AD414305284681BA00AE4C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD414306284681BA00AE4C70 /* Build configuration list for PBXNativeTarget "MailBoxSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD414307284681BA00AE4C70 /* Debug */,
+				AD414308284681BA00AE4C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD4142EA284681B600AE4C70 /* Project object */;
+}
