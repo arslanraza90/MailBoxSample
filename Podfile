@@ -7,6 +7,7 @@ target 'MailBoxSample' do
 
   # Pods for MailBoxSample
   pod 'MapboxMaps', '10.5.0'
+  pod 'Alamofire'
 
 
 end

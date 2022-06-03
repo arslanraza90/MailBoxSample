@@ -13,8 +13,10 @@
 		AD4142FD284681B600AE4C70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4142FB284681B600AE4C70 /* Main.storyboard */; };
 		AD4142FF284681BA00AE4C70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4142FE284681BA00AE4C70 /* Assets.xcassets */; };
 		AD414302284681BA00AE4C70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD414300284681BA00AE4C70 /* LaunchScreen.storyboard */; };
-		AD41430D284694C600AE4C70 /* medium.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = AD41430C284694C600AE4C70 /* medium.com.cer */; };
 		AD41430F284695C400AE4C70 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD41430E284695C400AE4C70 /* ServiceManager.swift */; };
+		AD92B0A82847BC4B00116DAC /* github.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = AD92B0A72847BC4B00116DAC /* github.com.cer */; };
+		AD92B0AA2847BC9100116DAC /* medium.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = AD92B0A92847BC9100116DAC /* medium.com.cer */; };
+		AD92B0AC2847BCC300116DAC /* www.mapbox.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = AD92B0AB2847BCC300116DAC /* www.mapbox.com.cer */; };
 		DA719D7D42602262CF0F77B2 /* Pods_MailBoxSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE252C963D67CCA1620946C /* Pods_MailBoxSample.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,8 +31,10 @@
 		AD4142FE284681BA00AE4C70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD414301284681BA00AE4C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD414303284681BA00AE4C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD41430C284694C600AE4C70 /* medium.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = medium.com.cer; sourceTree = "<group>"; };
 		AD41430E284695C400AE4C70 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		AD92B0A72847BC4B00116DAC /* github.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = github.com.cer; sourceTree = "<group>"; };
+		AD92B0A92847BC9100116DAC /* medium.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = medium.com.cer; sourceTree = "<group>"; };
+		AD92B0AB2847BCC300116DAC /* www.mapbox.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = www.mapbox.com.cer; sourceTree = "<group>"; };
 		FAACCA8635920093451E4BF0 /* Pods-MailBoxSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailBoxSample.release.xcconfig"; path = "Target Support Files/Pods-MailBoxSample/Pods-MailBoxSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,7 +80,9 @@
 		AD4142F4284681B600AE4C70 /* MailBoxSample */ = {
 			isa = PBXGroup;
 			children = (
-				AD41430C284694C600AE4C70 /* medium.com.cer */,
+				AD92B0A72847BC4B00116DAC /* github.com.cer */,
+				AD92B0A92847BC9100116DAC /* medium.com.cer */,
+				AD92B0AB2847BCC300116DAC /* www.mapbox.com.cer */,
 				AD4142F5284681B600AE4C70 /* AppDelegate.swift */,
 				AD4142F7284681B600AE4C70 /* SceneDelegate.swift */,
 				AD4142F9284681B600AE4C70 /* ViewController.swift */,
@@ -157,10 +163,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD41430D284694C600AE4C70 /* medium.com.cer in Resources */,
 				AD414302284681BA00AE4C70 /* LaunchScreen.storyboard in Resources */,
 				AD4142FF284681BA00AE4C70 /* Assets.xcassets in Resources */,
+				AD92B0AA2847BC9100116DAC /* medium.com.cer in Resources */,
+				AD92B0A82847BC4B00116DAC /* github.com.cer in Resources */,
 				AD4142FD284681B600AE4C70 /* Main.storyboard in Resources */,
+				AD92B0AC2847BCC300116DAC /* www.mapbox.com.cer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

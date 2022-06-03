@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-MailBoxSample/Pods-MailBoxSample-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/MapboxMaps/MapboxMaps.framework
 ${BUILT_PRODUCTS_DIR}/Turf/Turf.framework
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/MapboxCommon/MapboxCommon.framework/MapboxCommon

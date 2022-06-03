@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+import Alamofire
 
 
 class ServiceManager:NSObject{
@@ -35,6 +35,8 @@ class ServiceManager:NSObject{
         }
         task.resume()
     }
+    
+
 }
 
 
@@ -54,7 +56,7 @@ extension ServiceManager: URLSessionDelegate {
             //Local and Remote certificate Data
             let remoteCertificateData:NSData =  SecCertificateCopyData(certificate!)
             //let LocalCertificate = Bundle.main.path(forResource: "github.com", ofType: "cer")
-            let pathToCertificate = Bundle.main.path(forResource: "medium.com", ofType: "cer")
+            let pathToCertificate = Bundle.main.path(forResource: "www.mapbox.com", ofType: "cer")
             let localCertificateData:NSData = NSData(contentsOfFile: pathToCertificate!)!
             //Compare certificates
             if(isServerTrusted && remoteCertificateData.isEqual(to: localCertificateData as Data)){

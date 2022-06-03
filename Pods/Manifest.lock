@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (5.5.0)
   - MapboxCommon (21.3.0)
   - MapboxCoreMaps (10.5.1):
     - MapboxCommon (~> 21.3)
@@ -11,10 +12,12 @@ PODS:
   - Turf (2.4.0)
 
 DEPENDENCIES:
+  - Alamofire
   - MapboxMaps (= 10.5.0)
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - MapboxCommon
     - MapboxCoreMaps
     - MapboxMaps
@@ -22,12 +25,13 @@ SPEC REPOS:
     - Turf
 
 SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
   MapboxCommon: a336e40b53e3fda5c419fe093c9c40aff4f4dd2b
   MapboxCoreMaps: f0c995b043323571ec46d7d9e496390982f6509d
   MapboxMaps: e85375aa3d6bea94bf9c0221aa59f35ee0b29f29
   MapboxMobileEvents: f7f3e8daeb4b83688ae62a4172dce79169a97233
   Turf: 60b93cfdc62758526bc7bf1ef191a829aeb9694d
 
-PODFILE CHECKSUM: ef170495542535a17f6d45135bf873ee84015777
+PODFILE CHECKSUM: 6487d49a9de213bd1f8b0cd2d3da8aabc9f70bf7
 
 COCOAPODS: 1.11.2
