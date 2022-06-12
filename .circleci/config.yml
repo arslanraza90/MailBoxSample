@@ -5,16 +5,17 @@ version: 2.1
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
+  
   swiftlint:
     docker:
       - image: dantoml/swiftlint:latest
-     steps:
+    steps:
       - checkout
       - run: swiftlint lint --reporter junit | tree result.xml
       - store_artifacts:
-        path: result.xml
+          path: result.xml
       - store_test_results:
-        path: result.xml
+          path: result.xml
 
 
   say-hello:
