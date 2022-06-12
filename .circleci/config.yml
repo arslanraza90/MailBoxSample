@@ -5,6 +5,18 @@ version: 2.1
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
+  swiftlint:
+    docker:
+      - image: dantoml/swiftlint:latest
+     steps:
+      - checkout
+      - run: swiftlint lint --reporter junit | tree result.xml
+      - store_artifacts:
+        path: result.xml
+      - store_test_results:
+        path: result.xml
+
+
   say-hello:
     # Specify the execution environment. You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
     # See: https://circleci.com/docs/2.0/configuration-reference/#docker-machine-macos-windows-executor
@@ -24,3 +36,4 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
+      - swiftlint
