@@ -24,10 +24,10 @@ jobs:
           environment:
             SCAN_DEVICE: iPhone 11
             SCAN_SCHEME: MailBoxSample
-      - store_artifacts:
-          path: output
-      - store_test_results:
-          path: output/scan
+#       - store_artifacts:
+#           path: output
+#       - store_test_results:
+#           path: output/scan
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
