@@ -24,10 +24,6 @@ class ViewController: UIViewController {
         mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         
         self.view.addSubview(mapView)
-        
-        // produce error
-        
-        print(erverg wergewr gwer)
     }
 }
 
