@@ -28,16 +28,15 @@ class ViewController: UIViewController {
     }
 }
 
-
 extension ViewController{
     func loadAlert() {
         guard let url = URL(string: "https://www.mapbox.com") else { return }
         ServiceManager().callAPI(withURL: url, isCertificatePinning: true) { (message) in
             let alert = UIAlertController(title: "SSLPinning", message: message, preferredStyle: .alert)
             let okAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default) {
-                    UIAlertAction in
+                UIAlertAction in
                 self.mapBoxRequest()
-                }
+            }
             alert.addAction(okAction)
             self.present(alert, animated: true, completion: nil)
         }
@@ -48,15 +47,15 @@ extension ViewController{
         let parameters = [String: Any]()
         let nearMapURL = "https://api.nearmap.com/tiles/v3/Vert/19/119799/215845.jpg?apikey=MTkwODNiZmYtNWU0ZS00NjM4LWE5MDUtZDQ0N2MwMzRmZTIw&until=2022-08-01"
         AF.request(nearMapURL, method: .get,  parameters: parameters, encoding: URLEncoding.default)
-                .responseJSON { response in
-                    switch response.result {
-                    case .success(let value):
-                        if let json = value as? [String: Any] {
-                            print(json)
-                        }
-                    case .failure(let error):
-                        print(error)
+            .responseJSON { response in
+                switch response.result {
+                case .success(let value):
+                    if let json = value as? [String: Any] {
+                        print(json)
                     }
+                case .failure(let error):
+                    print(error)
+                }
             }
     }
 }
