@@ -19,7 +19,6 @@ jobs:
     steps:
       - checkout
       - run: bundle install
-      - run:
           name: Fastlane
           command: bundle exec fastlane $FASTLANE_LANE
 #           environment:
