@@ -19,8 +19,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "Say hello"
-          command: "echo Hello, World!"
+          name: Fastlane
+          command: bundle exec fastlane $FASTLANE_LANE
 #           environment:
 #             SCAN_DEVICE: iPhone 11
 #             SCAN_SCHEME: MailBoxSample
@@ -34,4 +34,4 @@ jobs:
 workflows:
   say-hello-workflow:
     jobs:
-      - say-hello
+      - Fastlane
