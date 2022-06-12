@@ -17,8 +17,8 @@ jobs:
       - run:
           # name: "Say hello"
           # command: "echo Hello, World!"
-          name: Build and run test
-          command: fastlane scan
+          name: Fastlane
+          command: bundle exec fastlane $FASTLANE_LANE
           environment:
             SCAN_DEVICE: iPhone 11
             SCAN_SCHEME: MailBoxSample
