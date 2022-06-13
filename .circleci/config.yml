@@ -6,16 +6,16 @@ version: 2.1
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
   
-  swiftlint:
-    docker:
-      - image: dantoml/swiftlint:latest
-    steps:
-      - checkout
-      - run: swiftlint lint --reporter junit | tree result.xml
-      - store_artifacts:
-          path: result.xml
-      - store_test_results:
-          path: result.xml
+  # swiftlint:
+  #   docker:
+  #     - image: dantoml/swiftlint:latest
+  #   steps:
+  #     - checkout
+  #     - run: swiftlint lint --reporter junit | tree result.xml
+  #     - store_artifacts:
+  #         path: result.xml
+  #     - store_test_results:
+  #         path: result.xml
 
 
   say-hello:
@@ -37,4 +37,4 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
-      - swiftlint
+      # - swiftlint
