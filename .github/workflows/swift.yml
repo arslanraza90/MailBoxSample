@@ -24,4 +24,4 @@ jobs:
     - name: Install Dependencies
       run: pod install
     - name: Build
-      run: xcodebuild build -workspace MailBoxSample.xcworkspace -scheme MailBoxSample -destination 'platform=iOS Simulator,name=iPhone 13'
+      run: xcodebuild build -workspace MailBoxSample.xcworkspace -scheme MailBoxSample -destination 'platform=iOS Simulator,name=iPhone 11’
