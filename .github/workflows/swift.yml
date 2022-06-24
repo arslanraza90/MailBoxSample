@@ -11,7 +11,7 @@ jobs:
     runs-on: macos-latest
     defaults:
       run:
-        working-directory: ""
+        working-directory: MailBox-example
     steps:
     - uses: actions/checkout@v2
     - uses: maxim-lobanov/setup-xcode@v1
